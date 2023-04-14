@@ -4,3 +4,32 @@ background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Ch
 background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+h1 {
+    font-family: fantasy;
+    font-size: 100px;
+    text-align: right;
+    padding: 20px;
+}
+section {
+    display: flex;
+    width: 600px;
+    height: 430;
+    margin: 0 auto;
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    border-radius: 10px;
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
