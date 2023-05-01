@@ -1,0 +1,41 @@
+.titulo-nos{
+    font-family: fantasy;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.galeria3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    height: auto;
+    border: 4px solid whitesmoke;
+    border-radius: 8px;
+    padding: 10px;
+    }
+    
+    .images3 {
+    border: 4px solid whitesmoke;
+    text-align: center;
+    background-position: center;
+    border-radius: 8px;
+    }
+
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+
+    .lorem {
+    font-family: fantasy;
+    color: whitesmoke;
+    background-color: black;
+    padding: 10px;
+    text-align: justify;
+    }

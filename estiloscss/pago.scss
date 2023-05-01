@@ -1,0 +1,71 @@
+.titulo-pago{
+    font-family: fantasy;
+    font-size: 40px;
+    color: whitesmoke;
+    }
+    
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .galeria2{
+    height:auto ;
+    width:950px ;
+    border: 4px solid whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 200px;
+    grid-template-areas: "img7 img8 img9"
+                         "img10 img11 img12";
+    grid-gap: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    
+    }
+    
+    .images2{
+    background-image: url(images/americanexpress.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 4px solid cornflowerblue;
+    border-radius: 8px;
+    }
+    
+    .images2:hover{
+    transform:scale(1.04);
+    transition: all 0.7s;
+    box-shadow:0 0 15px cornflowerblue;
+    box-shadow: inset 0 0 15px cornflowerblue;
+    }
+    
+    .img7{
+    grid-area: img7;
+    background-image: url(images/americanexpress.jpg);
+    }
+    
+    .img8{
+    grid-area: img8;
+    background-image: url(images/mastercard.jpg);
+    }
+    
+    .img9{
+    grid-area: img9;
+    background-image: url(images/mercadopago.jpg);
+    }
+    
+    .img10{
+    grid-area: img10;
+    background-image: url(images/paypal.jpg);
+    }
+    
+    .img11{
+    grid-area: img11;
+    background-image: url(images/rapipago.jpg);
+    }
+    
+    .img12{
+    grid-area: img12;
+    background-image: url(images/visa.jpg);
+    }
