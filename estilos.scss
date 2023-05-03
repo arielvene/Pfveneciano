@@ -1,0 +1,804 @@
+body{
+    background-color:black;
+}
+.navbar{
+    display: none;
+}
+.titulo {
+    font-family: fantasy;
+    font-size: 40px;
+    text-align: right;
+    padding: 20px;
+    color:whitesmoke;
+    
+}
+header .logo{
+display: inline-block;
+}
+
+section {
+    display: flex;
+    width: 600px;
+    height: 430px;
+    margin: 0 auto;
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    border-radius: 10px;
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+@import url('https//fonts.googleapis.com/css2?family=raleway:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.botones-neon body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #050801;
+    font-family: 'raleway', sans-serif;
+    font-weight: bold;
+}
+
+.botones-neon a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 10px;
+    margin: 10px 0;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+
+.botones-neon a:hover {
+    background: #03e9f4;
+    color:#050801;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent)
+}
+
+.botones-neon a:nth-child(1){
+    filter: hue-rotate(180deg) !important;
+}
+
+.botones-neon a:nth-child(2){
+    filter: hue-rotate(180deg) !important;
+}
+
+.botones-neon a span{
+    position: absolute;
+    display: block;
+}
+
+.botones-neon a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: animatel 1s linear infinite;
+}
+
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,
+    100%{
+        left: 100%;
+    }
+}
+
+.botones-neon a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;  
+}
+
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,
+    100%{
+        top: 100%
+    }
+}
+
+.botones-neon a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+
+@keyframes animate3{
+    0%{
+        right: -100%;
+    }
+    50%,
+    100%{
+        right: 100%;
+    }
+}
+
+.botones-neon a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;} 
+
+
+
+    /* parte de contactos */
+
+    .titulo-dos{
+        font-family: fantasy;
+        font-size: 40px;
+        text-align: right;
+        padding: 20px;
+        color:whitesmoke;
+    }
+
+    .image-contactos{
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        margin: auto;
+        border-radius: 10px;
+        border: 4px solid whitesmoke;
+    }
+
+    .image-contactos :hover{
+        transform:scale(1.04);
+        transition: all 0.7s;
+        box-shadow:0 0 10px whitesmoke;
+        box-shadow: inset 0 0 15px whitesmoke;
+    }
+
+    @import url('https//fonts.googleapis.com/css2?family=raleway:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-align:center;
+}
+
+.botones-neon-dos body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #050801;
+    font-family: 'raleway', sans-serif;
+    font-weight: bold;
+}
+
+.botones-neon-dos a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 10px;
+    margin: 10px 0;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+
+.botones-neon-dos a:hover {
+    background: #03e9f4;
+    color:#050801;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent)
+}
+
+.botones-neon-dos a:nth-child(1){
+    filter: hue-rotate(180deg) !important;
+}
+
+.botones-neon-dos a:nth-child(2){
+    filter: hue-rotate(180deg) !important;
+}
+
+.botones-neon-dos a span{
+    position: absolute;
+    display: block;
+}
+
+.botones-neon-dos a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: animatel 1s linear infinite;
+}
+
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,
+    100%{
+        left: 100%;
+    }
+}
+
+.botones-neon-dos a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;  
+}
+
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,
+    100%{
+        top: 100%
+    }
+}
+
+.botones-neon-dos a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+
+@keyframes animate3{
+    0%{
+        right: -100%;
+    }
+    50%,
+    100%{
+        right: 100%;
+    }
+}
+
+.botones-neon-dos a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;}
+
+
+
+    /* PRODUCTOS */
+
+    .titulo-productos{
+        font-family: fantasy;
+        font-size: 40px;
+        color: whitesmoke;
+    }
+
+    .btn{
+        border-radius: 50px;
+        margin: 10px;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .galeria{
+        height:auto ;
+        width:950px ;
+        border: 4px solid whitesmoke;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 200px 200px;
+        grid-template-areas: "img1 img2 img3"
+                             "img4 img5 img6";
+        grid-gap: 20px;
+        padding: 20px;
+        border-radius: 8px;
+        
+    }
+
+    .images{
+        background-image: url(images/nike1.jpg);
+        background-size: cover;
+        background-position: center;
+        border: 4px solid cornflowerblue;
+        border-radius: 8px;
+    }
+
+    .images:hover{
+        transform:scale(1.04);
+        transition: all 0.7s;
+        box-shadow:0 0 15px cornflowerblue;
+        box-shadow: inset 0 0 15px cornflowerblue;
+    }
+
+    .img1{
+        grid-area: img1;
+        background-image: url(images/nike1.jpg);
+    }
+    
+    .img2{
+        grid-area: img2;
+        background-image: url(images/nike2.jpg);
+    }
+
+    .img3{
+        grid-area: img3;
+        background-image: url(images/nike3.jpg);
+    }
+
+    .img4{
+        grid-area: img4;
+        background-image: url(images/nike4.jpg);
+    }
+
+    .img5{
+        grid-area: img5;
+        background-image: url(images/nike5.jpg);
+    }
+
+    .img6{
+        grid-area: img6;
+        background-image: url(images/nike6.jpg);
+    }
+
+/* PAGO */
+
+.titulo-pago{
+    font-family: fantasy;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.galeria2{
+    height:auto ;
+    width:950px ;
+    border: 4px solid whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 200px;
+    grid-template-areas: "img7 img8 img9"
+                         "img10 img11 img12";
+    grid-gap: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+.images2{
+    background-image: url(images/americanexpress.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 4px solid cornflowerblue;
+    border-radius: 8px;
+}
+
+.images2:hover{
+    transform:scale(1.04);
+    transition: all 0.7s;
+    box-shadow:0 0 15px cornflowerblue;
+    box-shadow: inset 0 0 15px cornflowerblue;
+}
+
+.img7{
+    grid-area: img7;
+    background-image: url(images/americanexpress.jpg);
+}
+
+.img8{
+    grid-area: img8;
+    background-image: url(images/mastercard.jpg);
+}
+
+.img9{
+    grid-area: img9;
+    background-image: url(images/mercadopago.jpg);
+}
+
+.img10{
+    grid-area: img10;
+    background-image: url(images/paypal.jpg);
+}
+
+.img11{
+    grid-area: img11;
+    background-image: url(images/rapipago.jpg);
+}
+
+.img12{
+    grid-area: img12;
+    background-image: url(images/visa.jpg);
+}
+
+/* NOSOTROS */
+
+.titulo-nos{
+    font-family: fantasy;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.galeria3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    height: auto;
+    border: 4px solid whitesmoke;
+    border-radius: 8px;
+    padding: 10px;
+    }
+    
+    .images3 {
+    border: 4px solid whitesmoke;
+    text-align: center;
+    background-position: center;
+    border-radius: 8px;
+    }
+
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+
+    .lorem {
+    font-family: fantasy;
+    color: whitesmoke;
+    background-color: black;
+    padding: 10px;
+    text-align: justify;
+    }
+
+    /*medias queries home*/
+    
+    @media only screen and (max-width: 320px) {
+        body{
+            background-color:black;
+        }
+        .titulo {
+            font-family: fantasy;
+            font-size: 20px;
+            text-align: center;
+            padding: 5px;
+            color:whitesmoke;
+            
+        }
+        .titulo{
+            text-align: center;
+        }
+        body{
+            overflow-x: hidden;
+            display:inline-block;
+        }
+        .navbar{
+            display:flex;
+            color: whitesmoke;
+        }
+        
+            section {
+            display:inline-block;
+            flex-direction: column;
+            width: 50%;
+            height: auto;
+            margin:auto;
+            }
+        
+            section img{
+            width: 50%;
+            flex-grow: 1;
+            object-fit: cover;
+            opacity: .8;
+            transition: .5s ease;
+            border-radius: 10px;
+            text-align: center;
+            }
+        
+            section img:hover{
+            cursor: crosshair;
+            width: 100%;
+            opacity: 1;
+            filter: contrast(120%);
+            }
+            
+        .botones-neon{
+            display: none;
+        }
+
+        header .logo{
+            display:contents;
+            width: 125px;
+            height: auto;
+        }
+    }
+
+    /*media query productos*/
+
+    @media only screen and (max-width: 320px){
+        .titulo-productos{
+            font-family: fantasy;
+            font-size: 20px;
+            color: whitesmoke;
+        }
+    
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        .galeria{
+            height:auto ;
+            max-width: 320px; ;
+            border: 2px solid whitesmoke;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 160px 160px 160px;
+            grid-template-areas: "img1 img2"
+                                 "img3 img4"
+                                 "img5 img6";
+            grid-gap: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            
+        }
+    
+        .images{
+            background-image: url(images/nike1.jpg);
+            background-size: cover;
+            background-position: center;
+            border: 2px solid cornflowerblue;
+            border-radius: 8px;
+        }
+    
+        .images:hover{
+            transform:scale(1.04);
+            transition: all 0.7s;
+            box-shadow:0 0 15px cornflowerblue;
+            box-shadow: inset 0 0 15px cornflowerblue;
+        }
+    
+        .img1{
+            grid-area: img1;
+            background-image: url(images/nike1.jpg);
+        }
+        
+        .img2{
+            grid-area: img2;
+            background-image: url(images/nike2.jpg);
+        }
+    
+        .img3{
+            grid-area: img3;
+            background-image: url(images/nike3.jpg);
+        }
+    
+        .img4{
+            grid-area: img4;
+            background-image: url(images/nike4.jpg);
+        }
+    
+        .img5{
+            grid-area: img5;
+            background-image: url(images/nike5.jpg);
+        }
+    
+        .img6{
+            grid-area: img6;
+            background-image: url(images/nike6.jpg);
+        }
+    }
+
+    /*media query pago*/
+
+    @media only screen and (max-width: 320px){
+        .titulo-pago{
+            font-family: fantasy;
+            font-size: 20px;
+            color: whitesmoke;
+        }
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .galeria2{
+            height:auto ;
+            max-width: 320px ;
+            border: 2px solid whitesmoke;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 160px 160px 160px;
+            grid-template-areas: "img7 img8"
+                                 "img9 img10"
+                                 "img11 img12";
+            grid-gap: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            
+        }
+        
+        .images2{
+            background-image: url(images/americanexpress.jpg);
+            background-size: cover;
+            background-position: center;
+            border: 2px solid cornflowerblue;
+            border-radius: 8px;
+        }
+        
+        .images2:hover{
+            transform:scale(1.04);
+            transition: all 0.7s;
+            box-shadow:0 0 15px cornflowerblue;
+            box-shadow: inset 0 0 15px cornflowerblue;
+        }
+        
+        .img7{
+            grid-area: img7;
+            background-image: url(images/americanexpress.jpg);
+        }
+        
+        .img8{
+            grid-area: img8;
+            background-image: url(images/mastercard.jpg);
+        }
+        
+        .img9{
+            grid-area: img9;
+            background-image: url(images/mercadopago.jpg);
+        }
+        
+        .img10{
+            grid-area: img10;
+            background-image: url(images/paypal.jpg);
+        }
+        
+        .img11{
+            grid-area: img11;
+            background-image: url(images/rapipago.jpg);
+        }
+        
+        .img12{
+            grid-area: img12;
+            background-image: url(images/visa.jpg);
+        }
+    }
+
+    /*media query nosotros*/
+
+    @media only screen and (max-width: 320px){
+        .titulo-nos{
+            font-family: fantasy;
+            font-size: 20px;
+            color: whitesmoke;
+        }
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .galeria3 {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 5px;
+            height: auto;
+            border: 2px solid whitesmoke;
+            border-radius: 8px;
+            padding: 10px;
+            }
+            
+            .images3 {
+            border: 2px solid whitesmoke;
+            text-align: center;
+            background-position: center;
+            border-radius: 8px;
+            }
+        
+            img {
+            max-width: 100%;
+            height: auto;
+            }
+        
+            .lorem {
+            font-family: fantasy;
+            color: whitesmoke;
+            background-color: black;
+            padding: 5px;
+            text-align: justify;
+            }
+    }
+
+    /*media query contactos*/
+
+    @media only screen and (max-width: 320px){
+        .titulo-dos{
+        font-family: fantasy;
+        font-size: 20px;
+        text-align: center;
+        padding: 20px;
+        color:whitesmoke;
+    }
+
+    .botones-neon-dos{
+        display: none;
+    }
+
+    .navbar{
+        display:flex;
+        color: whitesmoke;
+    }
+
+    .image-contactos{
+        border-radius: 20px;
+        padding: 20px;
+        width: 200px;
+        height: auto;
+    }
+
+    .btn{
+        border-radius: 50px;
+        margin: 10px;
+    }
+
+}
